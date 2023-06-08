@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "user-common-microservice": {
+      "type": "application",
+      "root": "apps/user-common-microservice",
+      "entryFile": "main",
+      "sourceRoot": "apps/user-common-microservice/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/user-common-microservice/tsconfig.app.json"
+      }
+    },
+    "product-microservice": {
+      "type": "application",
+      "root": "apps/product-microservice",
+      "entryFile": "main",
+      "sourceRoot": "apps/product-microservice/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/product-microservice/tsconfig.app.json"
+      }
+    },
+    "bff-microservice": {
+      "type": "application",
+      "root": "apps/bff-microservice",
+      "entryFile": "main",
+      "sourceRoot": "apps/bff-microservice/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/bff-microservice/tsconfig.app.json"
+      }
+    }
+  }
+}
