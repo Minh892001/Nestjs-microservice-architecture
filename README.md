@@ -1,22 +1,11 @@
 ## NestJS Starter Kit [v2]
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![Build Badge](https://github.com/monstar-lab-oss/nestjs-starter-rest-api/workflows/build/badge.svg)
-![Tests Badge](https://github.com/monstar-lab-oss/nestjs-starter-rest-api/workflows/tests/badge.svg)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=monstar-lab-oss_nestjs-starter-rest-api&metric=alert_status)](https://sonarcloud.io/dashboard?id=monstar-lab-oss_nestjs-starter-rest-api)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=monstar-lab-oss_nestjs-starter-rest-api&metric=coverage)](https://sonarcloud.io/dashboard?id=monstar-lab-oss_nestjs-starter-rest-api)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=monstar-lab-oss_nestjs-starter-rest-api&metric=code_smells)](https://sonarcloud.io/dashboard?id=monstar-lab-oss_nestjs-starter-rest-api)
-
 This starter kit has the following outline:
 
 - Microservice Project.
 - REST API
 
-This is a Github Template Repository, so it can be easily [used as a starter template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) for other repositories.
-
-## Sample implementations
-
-To view sample implementations based on this starter kit, please visit the [nestjs-sample-solutions](https://github.com/monstar-lab-oss/nestjs-sample-solutions) repository.
+This is a Github Template Repository, so it can be easily [used as a starter template]
 
 ## Installation
 
@@ -29,8 +18,6 @@ $ npm install
 
 Create a `.env` file from the template `.env.template` file.
 
-Generate public and private key pair for jwt authentication:
-
 ## Running the app
 
 We can run the project with or without docker.
@@ -39,7 +26,7 @@ We can run the project with or without docker.
 
 To run the server without Docker we need this pre-requisite:
 
-- Postgres server running
+- Mysql server running
 
 Commands:
 
@@ -102,7 +89,7 @@ $ npm run migration:revert
 
 
 ## Contributors
-
+Minh892001
 
 ## External Links
 
