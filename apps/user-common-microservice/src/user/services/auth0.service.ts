@@ -79,10 +79,6 @@ export class Auth0Service {
     );
     const response = await this.handleAuth0Response(observableResp);
     if (response.error) {
-      console.log(
-        'ihqweiurhiu',
-        `${response.error}:${response.error_description || response.message}`,
-      );
       throw new InternalServerErrorException(
         `${response.error}:${response.error_description || response.message}`,
       );

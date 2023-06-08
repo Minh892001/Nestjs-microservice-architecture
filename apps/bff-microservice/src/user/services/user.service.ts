@@ -122,7 +122,6 @@ export class UserService {
     const userInfo = JSON.parse(atob(response.data.access_token.split('.')[1]));
     const userId = userInfo.sub.split('|')[1];
     const userDetailInfo = await this.getUserAccessInfo(userId, true);
-    console.log(userDetailInfo);
     return {
       ...response.data,
       payload: {
